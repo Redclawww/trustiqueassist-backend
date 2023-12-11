@@ -19,7 +19,7 @@ admin.initializeApp({
 });
 
 // MongoDB connection using MongoDB Node.js driver
-const uri = 'mongodb+srv://trustique:VBK0471208@trustique.afnvqk0.mongodb.net/?retryWrites=true&w=majority';
+const uri = 'mongodb+srv://trustique:<password>@<organization>mongodb.net/?retryWrites=true&w=majority';
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 let User;
 
